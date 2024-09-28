@@ -1,0 +1,160 @@
+.parent-testimonial{   
+ margin-top: 8rem;
+ text-align: center;
+
+}
+
+.parent-testimonial h1{
+    color: hsl(228, 39%, 23%);
+    margin-bottom: 40px;
+    
+}
+
+
+.testimonial-container{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+
+}
+
+
+
+.user{
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    align-items: center;
+    text-align: center;
+    padding: 25px 25px;
+    width: 100%;
+  
+
+}
+
+.user img{
+   width: 50px;
+   align-items: center;
+    position: absolute;
+    top:  -15%;
+    left: 45%;
+   
+
+}
+
+.user h4{
+    font-size: 15px;
+    padding-bottom: 16px;
+    padding-top: 13px;
+    
+}
+
+.user p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.embla__slide{
+    display: block;
+    
+}
+
+.embla__container{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+   
+}
+
+
+  
+
+@media (max-width: 375px) {
+    .testimonial-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+      
+ 
+
+
+
+    
+}
+
+
+@media (max-width: 475px) {
+    .testimonial-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    
+    
+}
+
+
+@media (max-width: 640px) {
+    .testimonial-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    
+}
+
+
+@media (max-width: 768px) {
+    .testimonial-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 40px;
+      
+      }
+      
+
+   
+    
+    
+}
+
+
+@media (max-width: 1024px) {
+    .testimonial-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-bottom: 40px;
+      
+      }
+      
+    
+    
+    
+    
+}
+
+
+@media (max-width: 1280px) {
+    .testimonial-container{
+        display: flex;
+        gap: 15px;
+        margin-bottom: 40px;
+      
+      }
+      
+      
+
+    
+    
+}
