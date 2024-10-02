@@ -7,7 +7,7 @@ const Footer = () => {
 
       <div className="before-footercol"> 
         <div className="before-img">
-        <img src="src\assets\images\bg-simplify-section-desktop.svg" />
+        <img src="public\images\bg-simplify-section-desktop.svg" />
         </div>
 
         <div className="before-txt">
@@ -22,13 +22,13 @@ const Footer = () => {
 
       <div className="footer">
         <div className="icons">
-            <img src="src\assets\images\logo.svg" /> 
+            <img src="public\images\logo.svg" /> 
             <div className="smallicons">
-                <img src="src\assets\images\icon-facebook.svg"/>
-                <img src="src\assets\images\icon-youtube.svg"/>
-                <img src="src\assets\images\icon-twitter.svg"/>
-                <img src="src\assets\images\icon-pinterest.svg"/>
-                <img src="src\assets\images\icon-instagram.svg"/>
+                <img src="public\images\icon-facebook.svg"/>
+                <img src="public\images\icon-youtube.svg"/>
+                <img src="public\images\icon-twitter.svg"/>
+                <img src="public\images\icon-pinterest.svg"/>
+                <img src="public\images\icon-instagram.svg"/>
             </div>
         </div>
 

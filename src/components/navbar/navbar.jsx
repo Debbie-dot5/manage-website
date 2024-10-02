@@ -19,14 +19,14 @@ const Navbar = () => {
     return (
         <header className="nav">
             <div className='iconcont'> 
-                <img src="src\assets\images\logo.svg" alt="icon" />
+                <img src="public\images\logo.svg" alt="icon" />
             </div>
      
             <div className='hamburger' onClick={toggleMenu}>
   {isOpen ? (
-    <img src="src/assets/images/icon-close.svg" alt="Close icon" />
+    <img src="public\images\icon-close.svg" alt="Close icon" />
   ) : (
-    <img src="src/assets/images/icon-hamburger.svg" alt="Hamburger icon" />
+    <img src="public\images\icon-hamburger.svg" alt="Hamburger icon" />
     
   )}
 </div>
