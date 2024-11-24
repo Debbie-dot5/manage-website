@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
 
             <div className='imgcont'>
-                <img src= "public\images\illustration-intro.svg"/>
+                <img src= "/illustration-intro.svg"/>
             </div>
         </div>
     )

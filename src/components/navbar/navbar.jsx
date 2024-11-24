@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <header className="nav">
             <div className='iconcont'> 
-                <img src="public\images\logo.svg" alt="icon" />
+                <img src="/logo.svg" alt="icon" />
             </div>
      
             <div className='hamburger' onClick={toggleMenu}>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
 
         <button className='btncont'>Get started</button>
-
+      
         </header>
     )
 }
